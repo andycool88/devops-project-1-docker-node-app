@@ -53,15 +53,18 @@ devops-project-1-docker-node-app/
 
 # Clone the repository
 git clone https://github.com/andycool88/devops-project-1-docker-node-app.git
+
 cd devops-project-1-docker-node-app
 
 # Build and run using Docker Compose
+
 docker-compose up -d
 
 # Visit http://localhost:3000
 
 Method 2: Using Docker Commands
 # Build the Docker image
+
 docker build -t yourusername/devops-project-1:1.0 .
 
 # Run the container
@@ -90,12 +93,15 @@ Endpoint	Method	Description	Response
 🐳 Docker Commands Reference
 Building and Running
 # Build image
+
 docker build -t yourusername/devops-project-1:1.0 .
 
 # Run container
+
 docker run -d -p 3000:3000 --name node-app yourusername/devops-project-1:1.0
 
 # Run with environment variables
+
 docker run -d -p 3000:3000 -e NODE_ENV=production --name node-app yourusername/devops-project-1:1.0
 
 Management
@@ -124,7 +130,9 @@ docker login
 docker tag yourusername/devops-project-1:1.0 yourusername/devops-project-1:latest
 
 # Push to Docker Hub
+
 docker push yourusername/devops-project-1:1.0
+
 docker push yourusername/devops-project-1:latest
 
 🔧 Development
@@ -147,7 +155,9 @@ PORT	3000	Application port
 NODE_ENV	development	Environment mode
 
 📊 Learning Objectives
+
 ✅ DevOps Skills Demonstrated
+
 Docker containerization
 
 Dockerfile creation and optimization
@@ -163,6 +173,7 @@ Environment configuration
 Multi-container orchestration (Docker Compose)
 
 ✅ Technical Concepts
+
 Container isolation
 
 Port mapping
@@ -174,6 +185,7 @@ Layer caching in Docker builds
 Health check implementation
 
 🐛 Troubleshooting
+
 Common Issues
 Port already in use:
 
@@ -201,6 +213,7 @@ docker stats
 docker info
 
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 👨‍💻 Author
