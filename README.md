@@ -52,7 +52,7 @@ devops-project-1-docker-node-app/
 
 
 # Clone the repository
-git clone https://github.com/yourusername/devops-project-1-docker-node-app.git
+git clone https://github.com/andycool88/devops-project-1-docker-node-app.git
 cd devops-project-1-docker-node-app
 
 # Build and run using Docker Compose
