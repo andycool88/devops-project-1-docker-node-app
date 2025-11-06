@@ -34,10 +34,15 @@ Before running this project, ensure you have installed:
 
 
 devops-project-1-docker-node-app/
+
 ├── app.js # Main application file
+
 ├── package.json # Node.js dependencies and scripts
+
 ├── Dockerfile # Docker image definition
+
 ├── .dockerignore # Files to ignore in Docker build
+
 └── README.md # Project documentation
 
 
