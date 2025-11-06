@@ -75,8 +75,11 @@ docker run -d -p 3000:3000 yourusername/devops-project-1:1.0
 
 🌐 API Endpoints
 Endpoint	Method	Description	Response
+
 /	GET	Main endpoint	Application info
+
 /health	GET	Health check	Status OK
+
 /about	GET	Application details	Version info
 
 🐳 Docker Commands Reference
@@ -131,8 +134,11 @@ npm start
 # Server runs on http://localhost:3000
 
 Environment Variables
+
 Variable	Default	Description
+
 PORT	3000	Application port
+
 NODE_ENV	development	Environment mode
 
 📊 Learning Objectives
@@ -193,7 +199,7 @@ docker info
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 👨‍💻 Author
-Your Name
+Emaye Andrew
 
 GitHub: @Andycool88
 
