@@ -7,7 +7,7 @@
 
 A simple Node.js Express application containerized with Docker, demonstrating fundamental DevOps practices and containerization concepts.
 
-## 🚀 Project Overview
+## Project Overview
 
 This project showcases:
 - **Containerization** of a Node.js application using Docker
